@@ -1,3 +1,6 @@
+body {
+    background-color: gray;
+}
 
 .naam {
     text-align: center;
@@ -13,6 +16,16 @@
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
+    width: 200px;
+    height: auto;
+    box-shadow: 3px 3px 3px red;
+    
+}
+
+.img:hover {
+    width: 300px;
+    height: auto;
+    transition: 3s;
 }
 
 .table {
@@ -27,6 +40,11 @@ th, tr {
     border: 1px solid black;
 }
 
-.next {
-    text-align: right;
+a {
+    color: blue;
 }
+
+li {
+    text-align: center;
+}
+
