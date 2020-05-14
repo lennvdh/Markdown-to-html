@@ -1,9 +1,10 @@
+
 .naam {
     text-align: center;
     text-shadow: 1.5px 1.5px red;
 }
 
-.quote, .team {
+.quote, .team, p, h3 {
     text-align: center;
 }
 
@@ -11,4 +12,17 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    box-shadow: 1px 1px red;
+}
+
+th, tr {
+    border: 1px solid black;
 }
