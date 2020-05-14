@@ -1,3 +1,14 @@
-.test {
-    background-color: red;
+.naam {
+    text-align: center;
+    text-shadow: 1.5px 1.5px red;
+}
+
+.quote, .team {
+    text-align: center;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
