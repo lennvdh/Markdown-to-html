@@ -26,3 +26,7 @@
 th, tr {
     border: 1px solid black;
 }
+
+.next {
+    text-align: right;
+}
